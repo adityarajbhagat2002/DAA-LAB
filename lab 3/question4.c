@@ -23,7 +23,7 @@ void rotate(int *a, int *b, int *c)
 
 int main()
 {
-    int a, b, c;
+    int a, b, c;3 5 
     printf("Enter a, b, c: ");
     scanf("%d %d %d", &a, &b, &c);
     printf("Before Swapping:\na: %d\nb: %d\nc: %d\n", a, b, c);
