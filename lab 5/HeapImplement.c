@@ -212,7 +212,7 @@ int main()
             printf("No of comparisions = %d\n", noComp);
             printf("Cost function = %d\n", DesCost);
             break;
-        case 8:
+        case 8:;
             int totalCost = randCost + sortedCost + DesCost;
             printf("Time Complexity to sort ascending of data for all Cases = %d\n", totalCost);
             break;
@@ -221,7 +221,7 @@ int main()
                 heapify(arr, n, i);
             printf("Largest element = %d\n", arr[0]);
             break;
-        case 10:
+        case 10:;
             int index;
             printf("Enter index of value to be changed\n");
             scanf("%d", &index);
@@ -231,7 +231,7 @@ int main()
             arr[index] = num;
             heapify(arr, n, index);
             break;
-        case 11:
+        case 11:;
             int val;
             printf("Enter the number which you want to insert : ");
             scanf("%d", &val);
