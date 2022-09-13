@@ -133,7 +133,7 @@ void buildHuffmanTree(string text)
 // Huffman coding algorithm
 int main()
 {
-	string text = "ADITYA";
+	string text = "PANKAJ";
 
 	buildHuffmanTree(text);
 
