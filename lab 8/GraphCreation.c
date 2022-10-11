@@ -49,6 +49,8 @@ int main()
     g = addEdge(g, 1, 2);
     g = addEdge(g, 2, 3);
     g = addEdge(g, 3, 4);
-    dfs(g, 0, 0);
+    dfs(g,0,0);
     return 0;
+    
 }
+
